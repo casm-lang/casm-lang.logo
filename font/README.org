@@ -1,0 +1,2 @@
+
+This folder contains 3rd party fonts, their content and licenses.
