@@ -31,21 +31,21 @@ PNG += 256
 PNG += 384
 PNG += 512
 
-ICON = $(PNG:%=icon/%.png)
-LOGO = $(PNG:%=logo/%.png)
-RECT = $(PNG:%=rect/%.png)
-BANNER = $(PNG:%=banner/%.png)
+ICON = $(PNG:%=var/export/icon/%.png)
+LOGO = $(PNG:%=var/export/logo/%.png)
+RECT = $(PNG:%=var/export/rect/%.png)
+BANNER = $(PNG:%=var/export/banner/%.png)
 
 default: $(ICON) $(LOGO) $(RECT) $(BANNER)
 
-$(LOGO): logo.svg
+$(LOGO): src/logo.svg
 	inkscape -C -w `basename $@ .png` -e $@ $<
 
-$(ICON): icon.svg
+$(ICON): src/icon.svg
 	inkscape -C -w `basename $@ .png` -e $@ $<
 
-$(RECT): rect.svg
+$(RECT): src/rect.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
 
-$(BANNER): banner.svg
+$(BANNER): src/banner.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
