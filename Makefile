@@ -36,7 +36,7 @@ LOGO = $(PNG:%=var/export/logo/%.png)
 RECT = $(PNG:%=var/export/rect/%.png)
 BANNER = $(PNG:%=var/export/banner/%.png)
 
-default: $(ICON) $(LOGO) $(RECT) $(BANNER) etc/headline
+default: $(ICON) $(LOGO) $(RECT) $(BANNER) etc/headline.png
 
 $(LOGO): src/logo.svg
 	inkscape -C -w `basename $@ .png` -e $@ $<
@@ -50,5 +50,5 @@ $(RECT): src/rect.svg
 $(BANNER): src/banner.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
 
-etc/headline: var/export/banner/64.png
+etc/headline.png: var/export/banner/64.png
 	cp -f $< $@
