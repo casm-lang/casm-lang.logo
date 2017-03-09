@@ -29,13 +29,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="1096.7544"
+     inkscape:cx="983.61731"
      inkscape:cy="23.302965"
      inkscape:document-units="mm"
      inkscape:current-layer="g4718"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1065"
+     inkscape:window-width="960"
+     inkscape:window-height="1185"
      inkscape:window-x="0"
      inkscape:window-y="15"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,7 +60,8 @@
        id="g4718"
        transform="matrix(1.0000014,0,0,0.99952127,-2.5208926e-5,0.0120052)">
       <g
-         id="g4725">
+         id="g4725"
+         transform="matrix(0.8333333,0,0,0.8333333,13.093101,14.186987)">
         <path
            style="fill:#0094c0;fill-opacity:1;stroke:none;stroke-width:0.76419014;stroke-opacity:1"
            d="M 18.558693,57.497027 V 25.093156 h 33.629791 33.629793 l -4.218775,2.76795 C 61.670776,40.936412 40.043304,59.53109 30.73676,71.591427 c -2.489353,3.22595 -6.24779,8.665285 -8.352082,12.087415 l -3.825985,6.222055 z"
@@ -81,49 +82,49 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:9.45935535px;line-height:5.9120965px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.23648386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="296.49927"
+         x="276.49448"
          y="119.67631"
          id="text110-3"
-         transform="scale(0.99976034,1.0002397)"><tspan
+         transform="scale(0.99976035,1.0002397)"><tspan
            sodipodi:role="line"
            id="tspan108-6"
-           x="296.49927"
+           x="276.49448"
            y="119.67631"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.41397858px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.23648386px">State</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:8.98717308px;line-height:5.61698246px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.22467928px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="157.69781"
+         x="137.69307"
          y="119.69793"
          id="text110-3-3"
-         transform="scale(0.99976014,1.0002399)"><tspan
+         transform="scale(0.99976015,1.0002399)"><tspan
            sodipodi:role="line"
            id="tspan108-6-6"
-           x="157.69781"
+           x="137.69307"
            y="119.69793"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.44655228px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.22467928px">Abstract</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:11.56143188px;line-height:7.22589445px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.28903577px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="157.10318"
+         x="137.09842"
          y="85.446777"
          id="text110-3-3-7"
-         transform="scale(0.99976014,1.0002399)"><tspan
+         transform="scale(0.99976015,1.0002399)"><tspan
            sodipodi:role="line"
            id="tspan108-6-6-5"
-           x="157.10318"
+           x="137.09842"
            y="85.446777"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.17263031px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.28903577px">Corinthian</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:9.62797737px;line-height:6.01748562px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.2406994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="390.47446"
+         x="370.4697"
          y="119.66866"
          id="text110-3-35"
-         transform="scale(0.99976104,1.000239)"><tspan
+         transform="scale(0.99976105,1.000239)"><tspan
            sodipodi:role="line"
            id="tspan108-6-62"
-           x="390.47446"
+           x="370.4697"
            y="119.66866"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.11657333px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.2406994px">Machine</tspan></text>
     </g>
