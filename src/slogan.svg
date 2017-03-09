@@ -220,8 +220,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44994825"
-     inkscape:cx="633.77536"
-     inkscape:cy="961.54234"
+     inkscape:cx="1185.1172"
+     inkscape:cy="1083.401"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -229,7 +229,11 @@
      inkscape:window-height="1017"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4565" />
+  </sodipodi:namedview>
   <metadata
      id="metadata116">
     <rdf:RDF>
@@ -295,10 +299,10 @@
          sodipodi:role="line"
          id="tspan949-5">Corinthian Abstract State Machine</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69444466px;line-height:25.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.22462565px"
-         y="-112.98306"
+         y="-112.98307"
          x="217.65797"
          sodipodi:role="line"
-         id="tspan979-7">Language, Interpreter and Comiler</tspan></text>
+         id="tspan979-7">Language, Interpreter and Compiler</tspan></text>
     <text
        id="text110-3-3"
        y="-6.1517868"
@@ -449,5 +453,16 @@
          inkscape:connector-curvature="0"
          style="fill:#ffffff" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:6.3499999px;font-family:Roboto;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="343.15158"
+       y="-117.16849"
+       id="text4563"><tspan
+         sodipodi:role="line"
+         id="tspan4561"
+         x="343.15158"
+         y="-111.2443"
+         style="stroke-width:0.26458332px"></tspan></text>
   </g>
 </svg>
