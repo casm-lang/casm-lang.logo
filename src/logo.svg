@@ -34,8 +34,8 @@
      inkscape:document-units="mm"
      inkscape:current-layer="g4718"
      showgrid="false"
-     inkscape:window-width="960"
-     inkscape:window-height="1065"
+     inkscape:window-width="1920"
+     inkscape:window-height="1185"
      inkscape:window-x="0"
      inkscape:window-y="15"
      inkscape:window-maximized="0" />
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
        transform="matrix(1.0000014,0,0,0.99952127,-2.5208926e-5,0.0120052)">
       <g
          id="g4725"
-         transform="translate(0,-40.019159)">
+         transform="matrix(0.8333333,0,0,0.8333333,13.093101,-25.832172)">
         <path
            style="fill:#0094c0;fill-opacity:1;stroke:none;stroke-width:0.76419014;stroke-opacity:1"
            d="M 18.558693,57.497027 V 25.093156 h 33.629791 33.629793 l -4.218775,2.76795 C 61.670776,40.936412 40.043304,59.53109 30.73676,71.591427 c -2.489353,3.22595 -6.24779,8.665285 -8.352082,12.087415 l -3.825985,6.222055 z"
@@ -81,16 +81,16 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:14.2233057px;line-height:8.88956642px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.35558259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="16.725962"
-         y="144.46396"
+         style="font-style:normal;font-weight:normal;font-size:13.63069439px;line-height:8.51918507px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005199;fill-opacity:1;stroke:none;stroke-width:0.34076735px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="19.303144"
+         y="134.48846"
          id="text110"
-         transform="scale(0.99976046,1.0002396)"><tspan
+         transform="scale(0.99975846,1.0002416)"><tspan
            sodipodi:role="line"
            id="tspan108"
-           x="16.725962"
-           y="144.46396"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.26377106px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.35558259px">CASM</tspan></text>
+           x="19.303144"
+           y="134.48846"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.79455948px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#005199;fill-opacity:1;stroke-width:0.34076735px">CASM</tspan></text>
     </g>
   </g>
 </svg>
