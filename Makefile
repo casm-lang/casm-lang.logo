@@ -35,8 +35,9 @@ ICON = $(PNG:%=var/export/icon/%.png)
 LOGO = $(PNG:%=var/export/logo/%.png)
 RECT = $(PNG:%=var/export/rect/%.png)
 BANNER = $(PNG:%=var/export/banner/%.png)
+SLOGAN = $(PNG:%=var/export/slogan/%.png)
 
-default: $(ICON) $(LOGO) $(RECT) $(BANNER) etc/headline.png
+default: $(ICON) $(LOGO) $(RECT) $(BANNER) $(SLOGAN) etc/headline.png
 
 $(LOGO): src/logo.svg
 	inkscape -C -w `basename $@ .png` -e $@ $<
@@ -48,6 +49,9 @@ $(RECT): src/rect.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
 
 $(BANNER): src/banner.svg
+	inkscape -C -h `basename $@ .png` -e $@ $<
+
+$(SLOGAN): src/slogan.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
 
 etc/headline.png: var/export/banner/64.png
