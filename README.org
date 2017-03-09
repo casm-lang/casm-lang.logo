@@ -1,8 +1,8 @@
 [[https://github.com/casm-lang/casm-lang.logo/raw/master/etc/headline.png]]
 
-* The offical CASM Logo
+* The official CASM Logo
 
-This repository contains the offical logo, icon, banner etc. of the CASM project and the organization itself. 
+This repository contains the official logo, icon, banner etc. of the CASM project and the organization itself. 
 
 The logo is designed using the =Armata= font from http://www.dafont.com/de/armata2.font.
 
