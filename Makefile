@@ -30,6 +30,10 @@ PNG += 192
 PNG += 256
 PNG += 384
 PNG += 512
+PNG += 768
+PNG += 1024
+PNG += 2048
+PNG += 4096
 
 ICON = $(PNG:%=var/export/icon/%.png)
 LOGO = $(PNG:%=var/export/logo/%.png)
