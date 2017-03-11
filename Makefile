@@ -62,5 +62,5 @@ $(SLOGAN): src/slogan.svg
 $(QRCODE): src/qrcode.svg
 	inkscape -C -h `basename $@ .png` -e $@ $<
 
-etc/headline.png: var/export/banner/64.png
+etc/headline.png: var/export/rect/64.png
 	cp -f $< $@
