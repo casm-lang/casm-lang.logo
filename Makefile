@@ -21,6 +21,15 @@
 #   along with casm-lang.logo. If not, see <http://www.gnu.org/licenses/>.
 #
 
+KIND  = icon
+KIND += logo
+KIND += rect
+KIND += banner
+KIND += slogan
+KIND += qrcode
+
+SOURCES = $(KIND:%=src/%.svg)
+
 PNG  = 32
 PNG += 48
 PNG += 64
@@ -35,32 +44,36 @@ PNG += 1024
 PNG += 2048
 PNG += 4096
 
-ICON = $(PNG:%=var/export/icon/%.png)
-LOGO = $(PNG:%=var/export/logo/%.png)
-RECT = $(PNG:%=var/export/rect/%.png)
-BANNER = $(PNG:%=var/export/banner/%.png)
-SLOGAN = $(PNG:%=var/export/slogan/%.png)
-QRCODE = $(PNG:%=var/export/qrcode/%.png)
+PDF += 150
+PDF += 300
+PDF += 600
 
-default: $(ICON) $(LOGO) $(RECT) $(BANNER) $(SLOGAN) $(QRCODE) etc/headline.png
+EXPORT  = $(PNG:%=var/export/icon/%.png)
+EXPORT += $(PDF:%=var/export/icon/%.pdf)
+EXPORT += $(PNG:%=var/export/logo/%.png)
+EXPORT += $(PDF:%=var/export/logo/%.pdf)
+EXPORT += $(PNG:%=var/export/rect/%.png)
+EXPORT += $(PDF:%=var/export/rect/%.pdf)
+EXPORT += $(PNG:%=var/export/banner/%.png)
+EXPORT += $(PDF:%=var/export/banner/%.pdf)
+EXPORT += $(PNG:%=var/export/slogan/%.png)
+EXPORT += $(PDF:%=var/export/slogan/%.pdf)
+EXPORT += $(PNG:%=var/export/qrcode/%.png)
+EXPORT += $(PDF:%=var/export/qrcode/%.pdf)
 
-$(LOGO): src/logo.svg
-	inkscape -C -w `basename $@ .png` -e $@ $<
+EXPORT += etc/headline.png
 
-$(ICON): src/icon.svg
-	inkscape -C -w `basename $@ .png` -e $@ $<
+default: $(EXPORT)
 
-$(RECT): src/rect.svg
-	inkscape -C -h `basename $@ .png` -e $@ $<
+%.png: $(SOURCES)
+	@echo
+	@echo $@
+	@inkscape -C -h `basename $@ .png` -e $@ src/`basename \`dirname $@\``.svg
 
-$(BANNER): src/banner.svg
-	inkscape -C -h `basename $@ .png` -e $@ $<
-
-$(SLOGAN): src/slogan.svg
-	inkscape -C -h `basename $@ .png` -e $@ $<
-
-$(QRCODE): src/qrcode.svg
-	inkscape -C -h `basename $@ .png` -e $@ $<
+%.pdf: $(SOURCES)
+	@echo
+	@echo $@
+	@inkscape -C -d `basename $@ .pdf` -e $@ src/`basename \`dirname $@\``.svg
 
 etc/headline.png: var/export/rect/64.png
 	cp -f $< $@
