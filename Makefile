@@ -24,9 +24,14 @@
 KIND  = icon
 KIND += logo
 KIND += rect
+KIND += badge
+KIND += badge_bw
+KIND += badge_wb
 KIND += banner
-KIND += slogan
 KIND += qrcode
+KIND += slogan
+KIND += slogan_bw
+KIND += slogan_wb
 
 SOURCES = $(KIND:%=src/%.svg)
 
@@ -47,33 +52,39 @@ PNG += 4096
 PDF += 150
 PDF += 300
 PDF += 600
+PDF += 1200
+PDF += 2400
 
 EXPORT  = $(PNG:%=var/export/icon/%.png)
-EXPORT += $(PDF:%=var/export/icon/%.pdf)
 EXPORT += $(PNG:%=var/export/logo/%.png)
-EXPORT += $(PDF:%=var/export/logo/%.pdf)
 EXPORT += $(PNG:%=var/export/rect/%.png)
-EXPORT += $(PDF:%=var/export/rect/%.pdf)
+EXPORT += $(PNG:%=var/export/badge/%.png)
+EXPORT += $(PNG:%=var/export/badge_bw/%.png)
+EXPORT += $(PNG:%=var/export/badge_wb/%.png)
 EXPORT += $(PNG:%=var/export/banner/%.png)
-EXPORT += $(PDF:%=var/export/banner/%.pdf)
+EXPORT += $(PNG:%=var/export/qrcode/%.png)
 EXPORT += $(PNG:%=var/export/slogan/%.png)
 EXPORT += $(PDF:%=var/export/slogan/%.pdf)
-EXPORT += $(PNG:%=var/export/qrcode/%.png)
-EXPORT += $(PDF:%=var/export/qrcode/%.pdf)
+EXPORT += $(PNG:%=var/export/slogan_bw/%.png)
+EXPORT += $(PDF:%=var/export/slogan_bw/%.pdf)
+EXPORT += $(PNG:%=var/export/slogan_wb/%.png)
+EXPORT += $(PDF:%=var/export/slogan_wb/%.pdf)
 
 EXPORT += etc/headline.png
 
 default: $(EXPORT)
 
 %.png: $(SOURCES)
+	@mkdir -p `dirname $@`
 	@echo
 	@echo $@
 	@inkscape -C -h `basename $@ .png` -e $@ src/`basename \`dirname $@\``.svg
 
 %.pdf: $(SOURCES)
+	@mkdir -p `dirname $@`
 	@echo
 	@echo $@
-	@inkscape -C -d `basename $@ .pdf` -e $@ src/`basename \`dirname $@\``.svg
+	@inkscape -C -d `basename $@ .pdf` -A $@ src/`basename \`dirname $@\``.svg
 
 etc/headline.png: var/export/rect/64.png
 	cp -f $< $@
