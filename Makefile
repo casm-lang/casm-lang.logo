@@ -21,6 +21,8 @@
 #   along with casm-lang.logo. If not, see <http://www.gnu.org/licenses/>.
 #
 
+OBJ = obj
+
 KIND  = icon
 KIND += logo
 KIND += rect
@@ -57,22 +59,22 @@ PDF += 600
 PDF += 1200
 PDF += 2400
 
-EXPORT  = $(PNG:%=var/export/icon/%.png)
-EXPORT += $(PNG:%=var/export/logo/%.png)
-EXPORT += $(PNG:%=var/export/rect/%.png)
-EXPORT += $(PNG:%=var/export/badge/%.png)
-EXPORT += $(PNG:%=var/export/badge_bw/%.png)
-EXPORT += $(PNG:%=var/export/badge_wb/%.png)
-EXPORT += $(PNG:%=var/export/banner/%.png)
-EXPORT += $(PNG:%=var/export/qrcode/%.png)
-EXPORT += $(PDF:%=var/export/twitter_bg/%.png)
-EXPORT += $(PDF:%=var/export/sticker/%.png)
-EXPORT += $(PNG:%=var/export/slogan/%.png)
-EXPORT += $(PDF:%=var/export/slogan/%.pdf)
-EXPORT += $(PNG:%=var/export/slogan_bw/%.png)
-EXPORT += $(PDF:%=var/export/slogan_bw/%.pdf)
-EXPORT += $(PNG:%=var/export/slogan_wb/%.png)
-EXPORT += $(PDF:%=var/export/slogan_wb/%.pdf)
+EXPORT  = $(PNG:%=$(OBJ)/icon/%.png)
+EXPORT += $(PNG:%=$(OBJ)/logo/%.png)
+EXPORT += $(PNG:%=$(OBJ)/rect/%.png)
+EXPORT += $(PNG:%=$(OBJ)/badge/%.png)
+EXPORT += $(PNG:%=$(OBJ)/badge_bw/%.png)
+EXPORT += $(PNG:%=$(OBJ)/badge_wb/%.png)
+EXPORT += $(PNG:%=$(OBJ)/banner/%.png)
+EXPORT += $(PNG:%=$(OBJ)/qrcode/%.png)
+EXPORT += $(PDF:%=$(OBJ)/twitter_bg/%.png)
+EXPORT += $(PDF:%=$(OBJ)/sticker/%.png)
+EXPORT += $(PNG:%=$(OBJ)/slogan/%.png)
+EXPORT += $(PDF:%=$(OBJ)/slogan/%.pdf)
+EXPORT += $(PNG:%=$(OBJ)/slogan_bw/%.png)
+EXPORT += $(PDF:%=$(OBJ)/slogan_bw/%.pdf)
+EXPORT += $(PNG:%=$(OBJ)/slogan_wb/%.png)
+EXPORT += $(PDF:%=$(OBJ)/slogan_wb/%.pdf)
 
 EXPORT += etc/headline.png
 
@@ -90,5 +92,5 @@ default: $(EXPORT)
 	@echo $@
 	@inkscape -C -d `basename $@ .pdf` -A $@ src/`basename \`dirname $@\``.svg
 
-etc/headline.png: var/export/rect/64.png
+etc/headline.png: $(OBJ)/rect/64.png
 	cp -f $< $@
