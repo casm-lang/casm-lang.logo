@@ -29,6 +29,7 @@ KIND += badge_bw
 KIND += badge_wb
 KIND += banner
 KIND += qrcode
+KIND += twitter_bg
 KIND += slogan
 KIND += slogan_bw
 KIND += slogan_wb
@@ -63,6 +64,7 @@ EXPORT += $(PNG:%=var/export/badge_bw/%.png)
 EXPORT += $(PNG:%=var/export/badge_wb/%.png)
 EXPORT += $(PNG:%=var/export/banner/%.png)
 EXPORT += $(PNG:%=var/export/qrcode/%.png)
+EXPORT += $(PDF:%=var/export/twitter_bg/%.png)
 EXPORT += $(PNG:%=var/export/slogan/%.png)
 EXPORT += $(PDF:%=var/export/slogan/%.pdf)
 EXPORT += $(PNG:%=var/export/slogan_bw/%.png)
