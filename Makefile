@@ -39,42 +39,42 @@ KIND += slogan_wb
 
 SOURCES = $(KIND:%=src/%.svg)
 
-PNG  = 32
-PNG += 48
-PNG += 64
-PNG += 96
-PNG += 128
-PNG += 192
-PNG += 256
-PNG += 384
-PNG += 512
-PNG += 768
-PNG += 1024
-PNG += 2048
-PNG += 4096
+SIZE  = 32
+SIZE += 48
+SIZE += 64
+SIZE += 96
+SIZE += 128
+SIZE += 150
+SIZE += 192
+SIZE += 256
+SIZE += 300
+SIZE += 384
+SIZE += 512
+SIZE += 600
+SIZE += 768
+SIZE += 1024
+SIZE += 1200
+SIZE += 2048
+SIZE += 2400
+SIZE += 4096
 
-PDF += 150
-PDF += 300
-PDF += 600
-PDF += 1200
-PDF += 2400
-
-EXPORT  = $(PNG:%=$(OBJ)/icon/%.png)
-EXPORT += $(PNG:%=$(OBJ)/logo/%.png)
-EXPORT += $(PNG:%=$(OBJ)/rect/%.png)
-EXPORT += $(PNG:%=$(OBJ)/badge/%.png)
-EXPORT += $(PNG:%=$(OBJ)/badge_bw/%.png)
-EXPORT += $(PNG:%=$(OBJ)/badge_wb/%.png)
-EXPORT += $(PNG:%=$(OBJ)/banner/%.png)
-EXPORT += $(PNG:%=$(OBJ)/qrcode/%.png)
-EXPORT += $(PDF:%=$(OBJ)/twitter_bg/%.png)
-EXPORT += $(PDF:%=$(OBJ)/sticker/%.png)
-EXPORT += $(PNG:%=$(OBJ)/slogan/%.png)
-EXPORT += $(PDF:%=$(OBJ)/slogan/%.pdf)
-EXPORT += $(PNG:%=$(OBJ)/slogan_bw/%.png)
-EXPORT += $(PDF:%=$(OBJ)/slogan_bw/%.pdf)
-EXPORT += $(PNG:%=$(OBJ)/slogan_wb/%.png)
-EXPORT += $(PDF:%=$(OBJ)/slogan_wb/%.pdf)
+EXPORT  = $(SIZE:%=$(OBJ)/icon/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/logo/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/rect/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/badge/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/badge_bw/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/badge_wb/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/banner/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/qrcode/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/twitter_bg/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/sticker/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/sticker/%.pdf)
+EXPORT += $(SIZE:%=$(OBJ)/slogan/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/slogan/%.pdf)
+EXPORT += $(SIZE:%=$(OBJ)/slogan_bw/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/slogan_bw/%.pdf)
+EXPORT += $(SIZE:%=$(OBJ)/slogan_wb/%.png)
+EXPORT += $(SIZE:%=$(OBJ)/slogan_wb/%.pdf)
 
 EXPORT += etc/headline.png
 
