@@ -1666,18 +1666,6 @@
        cy="-57.714676"
        transform="matrix(0.98247481,-0.18639542,-0.18639526,-0.98247484,0,0)"
        r="39.8536" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient42848"
-       id="radialGradient42832"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-1.7131934e-6,-5.7026953e-6)"
-       cx="49.5"
-       cy="150.5"
-       fx="49.5"
-       fy="150.5"
-       r="49.5"
-       spreadMethod="pad" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1686,14 +1674,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3293607"
-     inkscape:cx="108.92376"
-     inkscape:cy="172.64445"
+     inkscape:zoom="1.8799999"
+     inkscape:cx="148.19616"
+     inkscape:cy="169.70382"
      inkscape:document-units="mm"
-     inkscape:current-layer="g23800"
+     inkscape:current-layer="g42830"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1065"
+     inkscape:window-width="2560"
+     inkscape:window-height="1585"
      inkscape:window-x="0"
      inkscape:window-y="15"
      inkscape:window-maximized="0"
@@ -1706,7 +1694,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -9219,7 +9207,7 @@
      inkscape:groupmode="layer">
     <circle
        r="49.5"
-       style="fill:url(#radialGradient42832);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35429522;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35429522;stroke-opacity:1"
        id="circle42828"
        cx="49.5"
        cy="150.5" />
@@ -9314,7 +9302,7 @@
     <g
        style="display:inline;stroke:#000000;stroke-opacity:0"
        id="Style_2_copy_3"
-       transform="matrix(0.02283634,0.15454028,-0.15454028,0.02283634,13.035916,52.914382)"
+       transform="matrix(0.02283634,0.15454028,-0.15454028,0.02283634,13.322907,52.209813)"
        inkscape:transform-center-x="0.089175546"
        inkscape:transform-center-y="0.0033954277">
       <g
@@ -9353,7 +9341,7 @@
     <g
        style="display:inline"
        id="g25142-2"
-       transform="matrix(0.0735393,0.0263589,-0.0263589,0.0735393,33.175394,82.377483)">
+       transform="matrix(0.0735393,0.0263589,-0.0263589,0.0735393,33.100758,82.551635)">
       <g
          id="g25136-1">
         <g
@@ -9376,7 +9364,7 @@
     </g>
     <g
        style="display:inline"
-       transform="matrix(0.13980457,-0.06974481,0.06974481,0.13980457,69.364197,79.83365)"
+       transform="matrix(0.13980457,-0.06974481,0.06974481,0.13980457,69.239803,80.057559)"
        id="g25204-4">
       <g
          id="g25200-0">
@@ -9399,7 +9387,11 @@
        transform="rotate(0.99778711,49.498407,49.486666)"><textPath
          xlink:href="#circle23798-6-0"
          id="textPath41885"
-         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:3.52777778px;font-family:Armata;-inkscape-font-specification:'Armata Thin';letter-spacing:0px">Corinthian Abstract State Machine  -  Language, Compiler, and Interpreter</textPath></text>
+         style="font-style:normal;font-variant:normal;font-weight:100;font-stretch:normal;font-size:3.52777767px;font-family:Armata;-inkscape-font-specification:'Armata Thin';letter-spacing:0px">Corinthian Abstract State Machine  -  Language<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan12677">,</tspan> Compiler<tspan
+   style="-inkscape-font-specification:C059;font-family:C059;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:2.82222222px"
+   id="tspan12685">,</tspan> and Interpreter</textPath></text>
   </g>
   <g
      transform="translate(0,-101)"
