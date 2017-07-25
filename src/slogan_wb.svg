@@ -219,14 +219,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.31816146"
-     inkscape:cx="751.65207"
-     inkscape:cy="933.69841"
+     inkscape:zoom="0.36228151"
+     inkscape:cx="708.27368"
+     inkscape:cy="746.34491"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="720"
-     inkscape:window-height="885"
+     inkscape:window-width="1280"
+     inkscape:window-height="1585"
      inkscape:window-x="0"
      inkscape:window-y="15"
      inkscape:window-maximized="0"
@@ -243,7 +243,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -252,99 +252,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-18.558693,354.90685)">
-    <g
-       transform="matrix(0.83333447,0,0,0.83293436,152.19139,-345.58258)"
-       id="g4725"
-       style="fill:#ffffff">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4686"
-         d="M 18.558693,57.497027 V 25.093156 h 33.629791 33.629793 l -4.218775,2.76795 C 61.670776,40.936412 40.043304,59.53109 30.73676,71.591427 c -2.489353,3.22595 -6.24779,8.665285 -8.352082,12.087415 l -3.825985,6.222055 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.76419014;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cccscsccsccsccccccc"
-         inkscape:connector-curvature="0"
-         id="path4690"
-         d="m 70.825264,143.9068 c 5.43093,-1.97575 16.816894,-7.99688 24.166666,-12.77979 11.67483,-7.59749 33.92791,-26.12762 32.79198,-27.30587 -0.25109,-0.2604 -3.86255,1.4446 -8.02549,3.78891 -37.525812,21.13217 -64.736323,27.75864 -75.111741,18.29159 -11.68331,-10.66039 -0.05049,-40.68762 24.938411,-64.372276 16.472515,-15.612766 39.71804,-31.259255 49.01194,-32.989784 2.17851,-0.405637 2.89616,-0.189606 4.04402,1.217364 1.77006,2.169602 1.75134,3.711955 -0.13379,11.027719 -3.45741,13.417415 -14.19218,31.626316 -26.978444,45.762355 -1.63266,1.804998 -2.774236,3.474594 -2.536853,3.710207 0.5838,0.579437 10.654027,-6.951088 19.783277,-14.793943 10.51976,-9.037421 18.32957,-17.966405 23.36697,-26.715531 l 2.40232,-4.17244 0.007,50.258922 0.007,50.258917 -35.35038,-0.0535 c -31.491492,-0.0477 -36.296002,0.49687 -33.652766,-0.46473 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.76147354;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path4713"
-         d="m 18.589967,139.72487 v -5.31212 l 1.720265,1.5796 c 3.824168,3.51147 6.113259,5.18548 9.974145,7.29405 1.415805,0.77322 2.654983,1.48342 2.75373,1.57822 0.108278,0.10395 -2.723389,0.17236 -7.134301,0.17236 h -7.313839 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1889881;stroke-opacity:1" />
-    </g>
-    <text
-       transform="scale(0.99999855,1.0000014)"
-       id="text110"
-       y="-185.30594"
-       x="158.397"
-       style="font-style:normal;font-weight:normal;font-size:13.62744045px;line-height:8.51715183px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34068602px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.78100204px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#ffffff;fill-opacity:1;stroke-width:0.34068602px;"
-         y="-185.30594"
-         x="158.397"
-         id="tspan108"
-         sodipodi:role="line">CASM</tspan></text>
-    <text
-       id="text110-3-3-7"
-       y="-137.54474"
-       x="217.65797"
-       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.22222137px;line-height:25.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-137.54474"
-         x="217.65797"
-         sodipodi:role="line"
-         id="tspan949-5">Corinthian Abstract State Machine</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69444466px;line-height:25.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-112.98307"
-         x="217.65797"
-         sodipodi:role="line"
-         id="tspan979-7">Language, Interpreter and Compiler</tspan></text>
-    <text
-       id="text110-3-3"
-       y="-6.1517868"
-       x="217.61513"
-       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.34722233px;line-height:17.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-6.1517868"
-         x="217.61513"
-         sodipodi:role="line"
-         id="tspan1136">Puck, The Sandman by Neil Gaiman</tspan></text>
-    <text
-       id="text110-3-3-0"
-       y="-71.315239"
-       x="217.62378"
-       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-71.315239"
-         x="217.62378"
-         sodipodi:role="line"
-         id="tspan971-9">The origin of the name <tspan
-   style="font-style:italic;font-size:15.875px;line-height:15.61999989px;fill:#f9f9f9;stroke-width:0.22462565px;"
-   id="tspan973-3">Corinthian is unclear,</tspan></tspan><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-55.69524"
-         x="219.03455"
-         sodipodi:role="line"
-         id="tspan981-6">whether it is taken from ''the letters, </tspan><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-40.075237"
-         x="219.03455"
-         sodipodi:role="line"
-         id="tspan989-0">the pillars, the leather, the place, </tspan><tspan
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-24.455238"
-         x="217.62378"
-         sodipodi:role="line"
-         id="tspan995-6">or the mode of behavior''.</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#f9f9f9;fill-opacity:1;stroke-width:0.22462565px;"
-         y="-16.265915"
-         x="217.62378"
-         sodipodi:role="line"
-         id="tspan979-2" /></text>
     <text
        id="text110-3-3-9"
        y="60.336563"
@@ -462,5 +369,117 @@
          x="343.15158"
          y="-111.2443"
          style="stroke-width:0.26458332px" /></text>
+    <g
+       transform="matrix(1.0000014,0,0,0.99952127,139.15469,-319.76252)"
+       id="g838"
+       style="fill:#ffffff">
+      <g
+         id="g4725"
+         transform="matrix(0.8333333,0,0,0.8333333,13.093101,-25.832172)"
+         style="fill:#ffffff">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.76419014;stroke-opacity:1"
+           d="M 18.558693,57.497027 V 25.093156 h 33.629791 33.629793 l -4.218775,2.76795 C 61.670776,40.936412 40.043304,59.53109 30.73676,71.591427 c -2.489353,3.22595 -6.24779,8.665285 -8.352082,12.087415 l -3.825985,6.222055 z"
+           id="path4686"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.76147354;stroke-opacity:1"
+           d="m 70.825264,143.9068 c 5.43093,-1.97575 16.816894,-7.99688 24.166666,-12.77979 11.67483,-7.59749 33.92791,-26.12762 32.79198,-27.30587 -0.25109,-0.2604 -3.86255,1.4446 -8.02549,3.78891 -37.525812,21.13217 -64.736323,27.75864 -75.111741,18.29159 -11.68331,-10.66039 -0.05049,-40.68762 24.938411,-64.372276 16.472515,-15.612766 39.71804,-31.259255 49.01194,-32.989784 2.17851,-0.405637 2.89616,-0.189606 4.04402,1.217364 1.77006,2.169602 1.75134,3.711955 -0.13379,11.027719 -3.45741,13.417415 -14.19218,31.626316 -26.978444,45.762355 -1.63266,1.804998 -2.774236,3.474594 -2.536853,3.710207 0.5838,0.579437 10.654027,-6.951088 19.783277,-14.793943 10.51976,-9.037421 18.32957,-17.966405 23.36697,-26.715531 l 2.40232,-4.17244 0.007,50.258922 0.007,50.258917 -35.35038,-0.0535 c -31.491492,-0.0477 -36.296002,0.49687 -33.652766,-0.46473 z"
+           id="path4690"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccscsccsccsccccccc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1889881;stroke-opacity:1"
+           d="m 18.589967,139.72487 v -5.31212 l 1.720265,1.5796 c 3.824168,3.51147 6.113259,5.18548 9.974145,7.29405 1.415805,0.77322 2.654983,1.48342 2.75373,1.57822 0.108278,0.10395 -2.723389,0.17236 -7.134301,0.17236 h -7.313839 z"
+           id="path4713"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.63069439px;line-height:8.51918507px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34076735px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="19.303144"
+         y="134.48846"
+         id="text110"
+         transform="scale(0.99975846,1.0002416)"><tspan
+           sodipodi:role="line"
+           id="tspan108"
+           x="19.303144"
+           y="134.48846"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.79455948px;font-family:Armata;-inkscape-font-specification:'Armata Thin';fill:#ffffff;fill-opacity:1;stroke-width:0.34076735px">CASM</tspan></text>
+    </g>
+    <text
+       id="text110-3-3-7"
+       y="-137.54449"
+       x="217.7144"
+       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.22222137px;line-height:25.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-137.54449"
+         x="217.7144"
+         sodipodi:role="line"
+         id="tspan949-5">Corinthian Abstract State Machine</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.69444466px;line-height:25.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-112.98283"
+         x="217.7144"
+         sodipodi:role="line"
+         id="tspan979-7">Language<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18477">,</tspan> Interpreter<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18496">,</tspan> and Compiler</tspan></text>
+    <text
+       id="text110-3-3"
+       y="-6.1515169"
+       x="217.67155"
+       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.34722233px;line-height:17.62000084px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-6.1515169"
+         x="217.67155"
+         sodipodi:role="line"
+         id="tspan1136">Puck, The Sandman by Neil Gaiman</tspan></text>
+    <text
+       id="text110-3-3-0"
+       y="-71.314987"
+       x="217.68021"
+       style="font-style:normal;font-weight:normal;font-size:8.98502827px;line-height:5.61564159px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22462565px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-71.314987"
+         x="217.68021"
+         sodipodi:role="line"
+         id="tspan971-9">The origin of the name <tspan
+   style="font-style:italic;font-size:15.875px;line-height:15.61999989px;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan973-3">Corinthian is unclear<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:'C059 Italic';fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18524">,</tspan></tspan></tspan><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-55.694981"
+         x="217.68021"
+         sodipodi:role="line"
+         id="tspan981-6">whether it is taken from ''the letters<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18518">,</tspan></tspan><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-40.074986"
+         x="217.68021"
+         sodipodi:role="line"
+         id="tspan989-0">the pillars<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18506">,</tspan> the leather<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18500">,</tspan> the place<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059;fill:#ffffff;stroke-width:0.22462565px"
+   id="tspan18512">,</tspan></tspan><tspan
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-24.454983"
+         x="217.68021"
+         sodipodi:role="line"
+         id="tspan995-6">or the mode of behavior''.</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.22462565px"
+         y="-16.265659"
+         x="217.68021"
+         sodipodi:role="line"
+         id="tspan979-2" /></text>
   </g>
 </svg>

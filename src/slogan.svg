@@ -14,7 +14,7 @@
    viewBox="0 0 400 500"
    version="1.1"
    id="svg119"
-   inkscape:version="0.92.1 r"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="slogan.svg"
    inkscape:export-filename="/home/pp/github/casm/var/logo/logo/48.png"
    inkscape:export-xdpi="10.16"
@@ -219,16 +219,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.31816146"
-     inkscape:cx="-346.09115"
-     inkscape:cy="800.30996"
+     inkscape:zoom="0.64106664"
+     inkscape:cx="930.4425"
+     inkscape:cy="993.52167"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="2560"
+     inkscape:window-height="1585"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="15"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -302,7 +302,11 @@
          y="-112.98307"
          x="217.65797"
          sodipodi:role="line"
-         id="tspan979-7">Language, Interpreter and Compiler</tspan></text>
+         id="tspan979-7">Language<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan18477">,</tspan> Interpreter<tspan
+   style="-inkscape-font-specification:C059;font-family:C059;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:14.11111111px"
+   id="tspan18496">,</tspan> and Compiler</tspan></text>
     <text
        id="text110-3-3"
        y="-6.1517868"
@@ -326,17 +330,27 @@
          sodipodi:role="line"
          id="tspan971-9">The origin of the name <tspan
    style="font-style:italic;font-size:15.875px;line-height:15.61999989px;fill:#4d4d4d;stroke-width:0.22462565px"
-   id="tspan973-3">Corinthian is unclear,</tspan></tspan><tspan
+   id="tspan973-3">Corinthian is unclear<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:'C059 Italic'"
+   id="tspan18524">,</tspan></tspan></tspan><tspan
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.22462565px"
          y="-55.69524"
          x="219.03455"
          sodipodi:role="line"
-         id="tspan981-6">whether it is taken from ''the letters, </tspan><tspan
+         id="tspan981-6">whether it is taken from ''the letters<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan18518">,</tspan> </tspan><tspan
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.22462565px"
          y="-40.075237"
          x="219.03455"
          sodipodi:role="line"
-         id="tspan989-0">the pillars, the leather, the place, </tspan><tspan
+         id="tspan989-0">the pillars<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan18506">,</tspan> the leather<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan18500">,</tspan> the place<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:0px;font-family:C059;-inkscape-font-specification:C059"
+   id="tspan18512">,</tspan> </tspan><tspan
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.875px;line-height:15.61999989px;font-family:Armata;-inkscape-font-specification:'Armata Thin';text-align:center;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke-width:0.22462565px"
          y="-24.455238"
          x="217.62378"
@@ -467,6 +481,6 @@
          id="tspan4561"
          x="343.15158"
          y="-111.2443"
-         style="stroke-width:0.26458332px"></tspan></text>
+         style="stroke-width:0.26458332px" /></text>
   </g>
 </svg>
