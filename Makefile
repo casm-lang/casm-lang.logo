@@ -55,26 +55,20 @@ SIZE += 768
 SIZE += 1024
 SIZE += 1200
 SIZE += 2048
-SIZE += 2400
-SIZE += 4096
 
-EXPORT  = $(SIZE:%=$(OBJ)/icon/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/logo/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/rect/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/badge/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/badge_bw/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/badge_wb/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/banner/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/qrcode/%.png)
+EXPORT  = $(SIZE:%=$(OBJ)/icon/%.png)        $(OBJ)/icon.pdf
+EXPORT += $(SIZE:%=$(OBJ)/logo/%.png)        $(OBJ)/logo.pdf
+EXPORT += $(SIZE:%=$(OBJ)/rect/%.png)        $(OBJ)/rect.pdf
+EXPORT += $(SIZE:%=$(OBJ)/badge/%.png)       $(OBJ)/badge.pdf
+EXPORT += $(SIZE:%=$(OBJ)/badge_bw/%.png)    $(OBJ)/badge_bw.pdf
+EXPORT += $(SIZE:%=$(OBJ)/badge_wb/%.png)    $(OBJ)/badge_wb.pdf
+EXPORT += $(SIZE:%=$(OBJ)/banner/%.png)      $(OBJ)/banner.pdf
+EXPORT += $(SIZE:%=$(OBJ)/qrcode/%.png)      $(OBJ)/qrcode.pdf
+EXPORT += $(SIZE:%=$(OBJ)/sticker/%.png)     $(OBJ)/sticker.pdf
+EXPORT += $(SIZE:%=$(OBJ)/slogan/%.png)      $(OBJ)/slogan.pdf
+EXPORT += $(SIZE:%=$(OBJ)/slogan_bw/%.png)   $(OBJ)/slogan_bw.pdf
+EXPORT += $(SIZE:%=$(OBJ)/slogan_wb/%.png)   $(OBJ)/slogan_wb.pdf
 EXPORT += $(SIZE:%=$(OBJ)/twitter_bg/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/sticker/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/sticker/%.pdf)
-EXPORT += $(SIZE:%=$(OBJ)/slogan/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/slogan/%.pdf)
-EXPORT += $(SIZE:%=$(OBJ)/slogan_bw/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/slogan_bw/%.pdf)
-EXPORT += $(SIZE:%=$(OBJ)/slogan_wb/%.png)
-EXPORT += $(SIZE:%=$(OBJ)/slogan_wb/%.pdf)
 
 EXPORT += etc/headline.png
 
@@ -90,7 +84,7 @@ default: $(EXPORT)
 	@mkdir -p `dirname $@`
 	@echo
 	@echo $@
-	@inkscape -C -d `basename $@ .pdf` -A $@ src/`basename \`dirname $@\``.svg
+	@inkscape -A $@ src/`basename $@ .pdf`.svg
 
 etc/headline.png: $(OBJ)/rect/64.png
 	cp -f $< $@
