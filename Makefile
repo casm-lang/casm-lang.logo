@@ -1,11 +1,11 @@
 #
-#   Copyright (c) 2016-2017 CASM Organization
+#   Copyright (C) 2016-2018 CASM Organization <https://casm-lang.org>
 #   All rights reserved.
 #
 #   Developed by: Philipp Paulweber
-#                 https://github.com/casm-lang/casm-lang.logo
+#                 <https://github.com/casm-lang/casm-lang.logo>
 #
-#   This file is part of casm-lang.logo
+#   This file is part of casm-lang.logo.
 #
 #   casm-lang.logo is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
