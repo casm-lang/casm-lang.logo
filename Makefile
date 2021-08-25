@@ -78,7 +78,7 @@ default: $(EXPORT)
 	@mkdir -p `dirname $@`
 	@echo
 	@echo $@
-	@inkscape -C -h `basename $@ .png` -e $@ src/`basename \`dirname $@\``.svg
+	@inkscape -C -h `basename $@ .png` --export-filename $@ src/`basename \`dirname $@\``.svg
 
 %.pdf: $(SOURCES)
 	@mkdir -p `dirname $@`
